@@ -12,7 +12,7 @@ struct Job {
 };
 
 int main() {
-    // Your specific input
+    
     vector<Job> jobs = {
         {1, 3, 6, 10},  
         {2, 2, 2, 20},  

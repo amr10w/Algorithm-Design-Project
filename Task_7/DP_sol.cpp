@@ -78,11 +78,11 @@ int main() {
 
     int n = jobs.size();
 
-    // Initialize memoization table with -1. 
+    
     // Size is 2^n, which is written as (1 << n) in bitwise operations.
     vector<int> memo(1 << n, -1);
 
-    // Start with mask 0 (no jobs completed)
+    
     int initialMask = 0;
     int optimalPenalty = solveDP(initialMask, jobs, memo);
 
